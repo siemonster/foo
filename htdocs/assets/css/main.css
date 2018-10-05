@@ -6,6 +6,32 @@
 @import url(codemirror.css);
 @import url(dragula.css);
 
+body {
+    background-color: #ffffff;
+    color: lightgrey;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #313131;
+}
+
+.jumbotron {
+    background-color: #2db300;
+}
+
+.panel, .panel-body, .panel-title, .panel-default > .panel-heading, .panel-footer{
+    background-color: #2db300;
+}
+
+table, thead, tbody, tr, td, th, .tablesorter-header {
+    background-color: #2db300;
+} 
+
+
+ #navbar .container-fluid {
+    background-color: #2db300;
+}
+
 #message {
     position: fixed;
     width: 100%;
@@ -30,6 +56,23 @@
 
 #container {
     margin-top: 70px;
+}
+
+#header .container-fluid {
+    background-image: linear-gradient(#2db300, #3c0 40%, #39e600);
+}
+
+#header a {
+    color: #ffffff;
+}
+
+
+#core .btn-primary.active {
+    background: green;
+}
+
+#core .btn-primary {
+    background: red;
 }
 
 footer {
